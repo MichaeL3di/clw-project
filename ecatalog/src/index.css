@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* .card{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+
+.card .card-image{
+    max-width: 60%;
+    height: auto;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+.card .card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: hsl(0,0%,20%);
+}
+
+.card .card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0,0%,40%);
+}
+
+.button{
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding:10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+} */
+
+html,
+body,
+#root,
+.app,
+.content {
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+
+
+}
+
+.app{
+    display: flex;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+
+::-webkit-scrollbar-track:hover{
+    background: #555;
+}
